@@ -10,6 +10,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-space-grotesk);
   --font-Roboto: var(--font-Roboto);
+
+  /* --color-spaceNavy: #1D2B53;
+  --color-spaceMaroon: #7E2553;
+  --color-spaceRed: #FF004D;
+  --color-spaceYellow: #FAEF5D; */
+
+  --color-midnightNebula: #101b39;
+  --color-LunarShadow: #333136;
+  --color-moonRock: #6f6d72;
+  --color-titaniumOrbit: #b4b1b8;
+  --color-stellarZenith: #e9e8ee;
 }
 
 @media (prefers-color-scheme: dark) {
