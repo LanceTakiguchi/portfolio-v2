@@ -4,15 +4,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-space-grotesk)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-roboto)]">
+        {/* <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-roboto)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-roboto)] font-semibold">
@@ -49,6 +41,74 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div> */}
+        <div className="
+        bg-gray-800
+        text-white
+        p-8 md:p-12 lg:p-16
+        rounded-xl
+        shadow-2xl
+        max-w-4xl
+        w-full
+        text-center
+        border border-gray-700
+        transform transition-all duration-500 ease-in-out
+        hover:scale-[1.01] hover:shadow-lg
+    ">
+          {/* <!-- Name Section --> */}
+          <h1 className="
+            text-4xl sm:text-5xl md:text-6xl lg:text-7xl
+            font-extrabold
+            mb-4
+            bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600
+            leading-tight
+        ">
+            Lance Takiguchi
+          </h1>
+
+          {/* <!-- Title Section --> */}
+          <p className="
+            text-xl sm:text-2xl md:text-3xl lg:text-4xl
+            font-semibold
+            text-gray-300
+            mb-8
+            tracking-wide
+        ">
+            Frontend Web Developer
+          </p>
+
+          {/* <!-- Quote Section (Job 9:9 ESV) --> */}
+          <div className="
+            mt-10 md:mt-12 lg:mt-16
+            p-6 md:p-8
+            bg-gray-700
+            rounded-lg
+            border-l-4 border-blue-500
+            italic
+            text-gray-200
+            text-base sm:text-lg md:text-xl
+            max-w-2xl
+            mx-auto
+            relative
+            overflow-hidden
+        ">
+            <p className="relative z-10">
+              "who made the Bear and Orion,
+            </p>
+            <p className="relative z-10">
+              the Pleiades and the chambers of the south"
+            </p>
+            <p className="text-right mt-4 text-sm sm:text-base text-gray-400 relative z-10">
+              — Job 9:9 (ESV)
+            </p>
+            {/* <!-- Subtle background effect for the quote --> */}
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-900 opacity-10 rounded-lg"></div>
+          </div>
+
+          {/* <!-- Optional: Add a subtle call to action or navigation hint --> */}
+          <div className="mt-12 text-gray-400 text-sm">
+            <p>Explore my work below &darr;</p>
+          </div>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
