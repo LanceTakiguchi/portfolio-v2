@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Roboto } from "next/font/google";
 import "./globals.css";
+import SolarSystem from './assets/solarsystem.svg';
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} ${roboto.variable} antialiased`}
+        className={`${spaceGrotesk.variable} ${roboto.variable} antialiased bg-[url(assets/LinkedIn.svg)] bg-cover bg-center bg-no-repeat`}
       >
         {children}
       </body>

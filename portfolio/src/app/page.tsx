@@ -1,50 +1,13 @@
 // import Image from 'next/image'; // If you're using Next.js Image component for optimization
 import LinkedInSvg from './assets/LinkedIn.svg';
+import SolarSystem from './assets/solarsystem.svg';
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-space-grotesk)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        {/* <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-roboto)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-roboto)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div> */}
         <div className="
-        bg-midnightNebula
+        bg-gradient-to-r from-midnightNebula to-midnightNebula-900
         text-white
         p-8 md:p-12 lg:p-16
         rounded-xl
@@ -71,7 +34,7 @@ export default function Home() {
           <p className="
             text-xl sm:text-2xl md:text-3xl lg:text-4xl
             font-semibold
-            text-cosmicTitanium
+            text-stellarZenith
             mb-8
             tracking-wide
         ">
@@ -82,7 +45,7 @@ export default function Home() {
           <div className="
             mt-10 md:mt-12 lg:mt-16
             p-6 md:p-8
-            bg-LunarShadow
+            bg-lunarShadow
             rounded-lg
             border-l-4 border-StellarZenith
             italic
@@ -103,11 +66,11 @@ export default function Home() {
               — Job 9:9 (ESV)
             </p>
             {/* <!-- Subtle background effect for the quote --> */}
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-900 opacity-10 rounded-lg"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-lunarShadow-100 to-lunarShadow-900 opacity-10 rounded-lg"></div>
           </div>
 
           {/* <!-- Optional: Add a subtle call to action or navigation hint --> */}
-          <div className="mt-12 text-gray-400 text-sm">
+          <div className="mt-12 text-moonRock text-sm">
             <p>Explore my work below &darr;</p>
           </div>
         </div>
@@ -120,6 +83,14 @@ export default function Home() {
           rel=""
         >
           <LinkedInSvg width={16} height={16} aria-hidden />
+        </a>
+                <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://www.linkedin.com/in/lancetakiguchi"
+          target="_blank"
+          rel=""
+        >
+          <SolarSystem width={160} height={160} aria-hidden />
         </a>
       </footer>
     </div>

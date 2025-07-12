@@ -16,10 +16,25 @@
   --color-spaceRed: #FF004D;
   --color-spaceYellow: #FAEF5D; */
 
-  --color-midnightNebula: #101b39;
-  --color-LunarShadow: #333136;
+  /* Dark Indigo */
+  --color-midnightNebula-100: #E7E8EB; 
+  --color-midnightNebula-200: #B9BDC6; 
+  --color-midnightNebula-300: #7C8292; 
+  --color-midnightNebula: #101b39; 
+  --color-midnightNebula-900: #0E1833; 
+  
+  /* Dark Carcoal Gray */
+  --color-lunarShadow-100: #E7E5EA;
+  --color-lunarShadow: #333136;
+  --color-lunarShadow-900: #1F1D22;
+  
+  /* Medium Gray */
   --color-moonRock: #6f6d72;
-  --color-titaniumOrbit: #b4b1b8;
+
+  /* Light Gray */
+  --color-cosmicTitanium: #b4b1b8;
+  
+  /* Off-White */
   --color-stellarZenith: #e9e8ee;
 }
 
@@ -34,7 +49,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('assets/solarsystem.svg');
+
+  background-image: url('/assets/LinkedIn.svg'); /* Path to your SVG file */
   background-size: cover; /* Or 'contain', '100% auto', etc. */
   background-repeat: no-repeat; /* Or 'repeat', 'repeat-x', 'repeat-y' */
   background-position: center center; /* Or 'top left', '50% 50%', etc. */
