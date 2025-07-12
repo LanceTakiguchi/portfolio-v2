@@ -50,8 +50,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 
-  background-image: url('/assets/LinkedIn.svg'); /* Path to your SVG file */
-  background-size: cover; /* Or 'contain', '100% auto', etc. */
-  background-repeat: no-repeat; /* Or 'repeat', 'repeat-x', 'repeat-y' */
-  background-position: center center; /* Or 'top left', '50% 50%', etc. */
 }

@@ -1,6 +1,5 @@
 // import Image from 'next/image'; // If you're using Next.js Image component for optimization
 import LinkedInSvg from './assets/LinkedIn.svg';
-import SolarSystem from './assets/solarsystem.svg';
 
 export default function Home() {
   return (
@@ -83,14 +82,6 @@ export default function Home() {
           rel=""
         >
           <LinkedInSvg width={16} height={16} aria-hidden />
-        </a>
-                <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/lancetakiguchi"
-          target="_blank"
-          rel=""
-        >
-          <SolarSystem width={160} height={160} aria-hidden />
         </a>
       </footer>
     </div>
