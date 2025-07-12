@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${spaceGrotesk.variable} ${roboto.variable} antialiased`}
       >
-        <SolarSystem aria-hidden className="fixed bg-cover bg-no-repeat bg-center w-screen h-screen" />
+        <SolarSystem aria-hidden className="fixed -z-1 bg-cover bg-no-repeat bg-center w-screen h-screen" />
         {children}
       </body>
     </html>
