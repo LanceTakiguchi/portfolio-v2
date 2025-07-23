@@ -1,7 +1,6 @@
-// import Image from 'next/image'; // If you're using Next.js Image component for optimization
 import LinkedInSvg from './assets/LinkedIn.svg';
 import { PriceSpiderSvg } from './assets/page';
-import HotPockets from './assets/page/HotPocketsWTB.png'; // Ensure this path is correct
+import HotPockets from './assets/page/HotPocketsWTB.png';
 
 export default function Home() {
   return (
@@ -120,25 +119,30 @@ export default function Home() {
             {/* <img src={require('./assets/page/HotPocketsWTBPng')} alt="Hot Pockets Where to Buy" className="w-4 h-4" /> */}
             <img src={HotPockets.src} alt="Hot Pockets Where to Buy" />
             {/* <HotPocketsWTBPng /> */}
-            <h3 className="relative z-10">Frontend End Developer - Implementations </h3>
-            <ul className="text-sm">
+            <h3 className="relative z-10 mb-2">Frontend End Developer - Implementations </h3>
+            <ul className="text-sm flex flex-col justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Work on "Where to Buy" widgets - widgets placed on client's website, showing clicks to buy their product online or in person</li>
-              <li>Technology: HTML, CSS, JS</li>
+              <li>Technology: <b >HTML, CSS, JS</b></li>
               <li>From Sept 2018 to March 2021 </li>
-              <li>Clients included Nestle, Procter & Gamble, Mattel, Sony, Samsung, etc.</li>
-              <li>Example Links:
-                <ul>
-                  <li><a target="_blank" href="https://www.goodnes.com/hot-pockets/products/ham-cheese-crispy-crust-frozen-sandwich-20-pk/">Nestle's Hot Pockets</a></li>
+              <li>Style based on client website and style guides</li>
+              <li>Custom features using <b>JavaScript</b>. Features sold by sales, but not officially supported, created ad hoc</li>
+              <li>Clients included <b>Nestle, Procter & Gamble, Mattel, Sony, Samsung, etc.</b></li>
+              <li>
+                <div>
+                  Example Links
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 inline-block ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
+                  :
+                </div>
+                <ul className="list-disc list-inside">
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.goodnes.com/hot-pockets/products/ham-cheese-crispy-crust-frozen-sandwich-20-pk/">Nestle's Hot Pockets</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.weber.com/US/en/storefinder/">Weber</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.haierappliances.com/find-a-haier-store/">Haier</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.milwaukeetool.com/products/0970-20 ">Milwaukee Tools</a></li>
                 </ul>
               </li>
             </ul>
-            {/* <!-- Subtle background effect for the quote --> */}
-            <div className="absolute inset-0 bg-gradient-to-br from-lunarShadow-100 to-lunarShadow-900 opacity-10 rounded-lg"></div>
-          </div>
-
-          {/* <!-- Optional: Add a subtle call to action or navigation hint --> */}
-          <div className="mt-12 text-moonRock v">
-            <p>Explore my work below &darr;</p>
           </div>
         </div>
       </main>
