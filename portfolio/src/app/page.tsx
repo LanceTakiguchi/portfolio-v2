@@ -86,7 +86,6 @@ export default function Home() {
         text-center
         border border-gray-700
         transform transition-all duration-500 ease-in-out
-        hover:scale-[1.01] hover:shadow-lg
     ">
           {/* <!-- Name Section --> */}
           <h2 className="
@@ -106,7 +105,6 @@ export default function Home() {
             bg-lunarShadow
             rounded-lg
             border-l-4 border-StellarZenith
-            italic
             text-stellarZenith
             text-base sm:text-lg md:text-xl
             max-w-2xl
@@ -122,21 +120,24 @@ export default function Home() {
             {/* <img src={require('./assets/page/HotPocketsWTBPng')} alt="Hot Pockets Where to Buy" className="w-4 h-4" /> */}
             <img src={HotPockets.src} alt="Hot Pockets Where to Buy" />
             {/* <HotPocketsWTBPng /> */}
-            <p className="relative z-10">
-              "who made the Bear and Orion,
-            </p>
-            <p className="relative z-10">
-              the Pleiades and the chambers of the south"
-            </p>
-            <p className="text-right mt-4 text-sm sm:text-base text-moonRock relative z-10">
-              — Job 9:9 (ESV)
-            </p>
+            <h3 className="relative z-10">Frontend End Developer - Implementations </h3>
+            <ul className="text-sm">
+              <li>Description: Work on "Where to Buy" widgets - widgets placed on client's website, showing clicks to buy their product online or in person</li>
+              <li>Technology: HTML, CSS, JS</li>
+              <li>From Sept 2018 to March 2021 </li>
+              <li>Clients included Nestle, Procter & Gamble, Mattel, Sony, Samsung, etc.</li>
+              <li>Example Links:
+                <ul>
+                  <li><a target="_blank" href="https://www.goodnes.com/hot-pockets/products/ham-cheese-crispy-crust-frozen-sandwich-20-pk/">Nestle's Hot Pockets</a></li>
+                </ul>
+              </li>
+            </ul>
             {/* <!-- Subtle background effect for the quote --> */}
             <div className="absolute inset-0 bg-gradient-to-br from-lunarShadow-100 to-lunarShadow-900 opacity-10 rounded-lg"></div>
           </div>
 
           {/* <!-- Optional: Add a subtle call to action or navigation hint --> */}
-          <div className="mt-12 text-moonRock text-sm">
+          <div className="mt-12 text-moonRock v">
             <p>Explore my work below &darr;</p>
           </div>
         </div>
