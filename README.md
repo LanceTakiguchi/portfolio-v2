@@ -7,10 +7,11 @@ Portfolio website for my current job searching as a frontend web developer.
 * [Github](https://github.com/LanceTakiguchi/portfolio-v2) 
 * [TypeScript](https://www.typescriptlang.org/)
 * [TailwindCSS](https://tailwindcss.com/)
+* [heroicons](https://heroicons.com/outline)
 * [ESLint](https://eslint.org/)
-* [GithubCoPiolet]()
-* [Goose]()
-    * [Gemini]()
+* [GithubCoPiolet](https://github.com/features/copilot)
+* [Goose](https://squareup.com/us/en/the-bottom-line/podcasts/the-square-developer-podcast/goose)
+    * empowering with [Gemini](https://gemini.google.com/app)
 
 ### Color Scheme
 Found colors from [Color Palette: Awesome Space](https://paperheartdesign.com/blog/color-palette-awesome-space)
