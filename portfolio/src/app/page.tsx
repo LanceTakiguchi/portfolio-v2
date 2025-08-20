@@ -119,7 +119,7 @@ export default function Home() {
             </div>
             <img src={HotPockets.src} alt="Hot Pockets Where to Buy" />
             <h3 className="relative z-10 pt-8 pb-2 self-start">Frontend End Developer - Implementations </h3>
-            <ul className="text-sm flex flex-col justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
+            <ul className="text-sm flex flex-col ml-5 justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Work on "Where to Buy" widgets - widgets placed on client's website, showing clicks to buy their product online or in person</li>
               <li>Technology: <b >HTML, CSS, JS</b></li>
               <li>From Sept 2018 to March 2020 </li>
@@ -143,7 +143,7 @@ export default function Home() {
               </li>
             </ul>
             <h3 className="relative z-10 pt-8 pb-2 self-start">Full Stack Developer</h3>
-            <ul className="text-sm flex flex-col justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
+            <ul className="text-sm flex flex-col justify-start items-start ml-5 text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Work on Special projects. Main project was a widget builder, allowing anyone to create Where to Buy widgets</li>
               <li>Technology: <b >React JS, Tailwind CSS, next.js</b></li>
               <li>From March 2020 to June 2022 </li>
@@ -171,7 +171,7 @@ export default function Home() {
             </div>
             <img src={WPSDKPng.src} alt="Square Web Payments SDK Reference" />
             <h3 className="relative z-10 pt-8 pb-2 self-start">Developer Success Engineer</h3>
-            <ul className="text-sm flex flex-col justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
+            <ul className="text-sm flex flex-col justify-start items-start ml-5 text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Help developers create custom Square paymants and integrations using SDK, APIs, and other developer tools</li>
               <li>From July 2022 to March 2025</li>
               <li>Help small indie developers to enterprise accounts with account managers</li>
