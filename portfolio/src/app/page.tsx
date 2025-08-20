@@ -114,13 +114,15 @@ export default function Home() {
             align-items-center
             overflow-hidden
         ">
-            <PriceSpiderSvg className="PriceSpiderLogo m-auto fill-white" width={160} height={35} aria-hidden />
+            <div className="p-8">
+              <PriceSpiderSvg className="PriceSpiderLogo m-auto fill-white" width={160} height={35} aria-hidden />
+            </div>
             <img src={HotPockets.src} alt="Hot Pockets Where to Buy" />
-            <h3 className="relative z-10 mb-2">Frontend End Developer - Implementations </h3>
+            <h3 className="relative z-10 pt-8 pb-2 self-start">Frontend End Developer - Implementations </h3>
             <ul className="text-sm flex flex-col justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Work on "Where to Buy" widgets - widgets placed on client's website, showing clicks to buy their product online or in person</li>
               <li>Technology: <b >HTML, CSS, JS</b></li>
-              <li>From Sept 2018 to March 2021 </li>
+              <li>From Sept 2018 to March 2020 </li>
               <li>Style based on client website and style guides</li>
               <li>Custom features using <b>JavaScript</b>. Features sold by sales, but not officially supported, created ad hoc</li>
               <li>Clients included <b>Nestle, Procter & Gamble, Mattel, Sony, Samsung, etc.</b></li>
@@ -140,11 +142,11 @@ export default function Home() {
                 </ul>
               </li>
             </ul>
-            <h3 className="relative z-10 mb-2">Full Stack Developer</h3>
+            <h3 className="relative z-10 pt-8 pb-2 self-start">Full Stack Developer</h3>
             <ul className="text-sm flex flex-col justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Work on Special projects. Main project was a widget builder, allowing anyone to create Where to Buy widgets</li>
               <li>Technology: <b >React JS, Tailwind CSS, next.js</b></li>
-              <li>From March 2021 to June 2022 </li>
+              <li>From March 2020 to June 2022 </li>
             </ul>
           </div>
           <div className="
@@ -164,13 +166,14 @@ export default function Home() {
             overflow-hidden
         ">
             {/* <!-- Title Section --> */}
-            <SquareSvg className="PriceSpiderLogo m-auto fill-white" width={160} height={35} aria-hidden />
-            <img src={WPSDKPng.src} alt="Hot Pockets Where to Buy" />
-            {/* <HotPocketsWTBPng /> */}
-            <h3 className="relative z-10 mb-2">Developer Success Engineer</h3>
+            <div className="p-8">
+              <SquareSvg className="PriceSpiderLogo m-auto fill-white" width={160} height={35} aria-hidden />
+            </div>
+            <img src={WPSDKPng.src} alt="Square Web Payments SDK Reference" />
+            <h3 className="relative z-10 pt-8 pb-2 self-start">Developer Success Engineer</h3>
             <ul className="text-sm flex flex-col justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Help developers create custom Square paymants and integrations using SDK, APIs, and other developer tools</li>
-              <li>From July 2022 to March 2025 </li>
+              <li>From July 2022 to March 2025</li>
               <li>Help small indie developers to enterprise accounts with account managers</li>
               <li>Supporting developers on email, forum, Discord, and Slack</li>
               <li>Work closely with documentation team, sale engineers, account managers, product & engineering</li>
@@ -216,7 +219,7 @@ export default function Home() {
           target="_blank"
           rel="LinkedIn"
         >
-          <LinkedInSvg alt="PriceSpider" width={16} height={16} aria-hidden />
+          <LinkedInSvg alt="PriceSpider" width={24} height={24} aria-hidden />
         </a>
       </footer>
     </div>
