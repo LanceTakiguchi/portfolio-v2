@@ -87,7 +87,6 @@ export default function Home() {
         border border-gray-700
         transform transition-all duration-500 ease-in-out
     ">
-          {/* <!-- Name Section --> */}
           <h2 className="
             text-2xl sm:text-5xl md:text-6xl lg:text-7xl
             font-bold
@@ -121,7 +120,6 @@ export default function Home() {
             <h3 className="relative z-10 pt-8 pb-2 self-start">Frontend End Developer - Implementations </h3>
             <ul className="text-sm flex flex-col ml-5 justify-start items-start text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Work on "Where to Buy" widgets - widgets placed on client's website, showing clicks to buy their product online or in person</li>
-              <li>Technology: <b >HTML, CSS, JS</b></li>
               <li>From Sept 2018 to March 2020 </li>
               <li>Style based on client website and style guides</li>
               <li>Custom features using <b>JavaScript</b>. Features sold by sales, but not officially supported, created ad hoc</li>
@@ -141,12 +139,53 @@ export default function Home() {
                   <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.milwaukeetool.com/products/0970-20 ">Milwaukee Tools</a></li>
                 </ul>
               </li>
+              <li>
+                <div>
+                  Technology
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 inline-block ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
+                  :
+                </div>
+                <ul className="list-disc list-inside">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                </ul>
+              </li>
+              <li>
+                <div>
+                  Skills
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 inline-block ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
+                  :
+                </div>
+                <ul className="list-disc list-inside">
+                  <li>Doumentation</li>
+                  <li>Training</li>
+                  <li>Custom client work</li>
+                </ul>
+              </li>
             </ul>
             <h3 className="relative z-10 pt-8 pb-2 self-start">Full Stack Developer</h3>
             <ul className="text-sm flex flex-col justify-start items-start ml-5 text-left list-disc font-[family-name:var(--font-roboto)]">
               <li>Description: Work on Special projects. Main project was a widget builder, allowing anyone to create Where to Buy widgets</li>
-              <li>Technology: <b >React JS, Tailwind CSS, next.js</b></li>
               <li>From March 2020 to June 2022 </li>
+              <li>
+                <div>
+                  Technology
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 inline-block ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
+                  :
+                </div>
+                <ul className="list-disc list-inside">
+                  <li>React JS</li>
+                  <li>Tailwind CSS</li>
+                  <li>Node JS</li>
+                </ul>
+              </li>
             </ul>
           </div>
           <div className="
@@ -187,25 +226,35 @@ export default function Home() {
                   :
                 </div>
                 <ul className="list-disc list-inside">
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.goodnes.com/hot-pockets/products/ham-cheese-crispy-crust-frozen-sandwich-20-pk/">Nestle's Hot Pockets</a></li>
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.weber.com/US/en/storefinder/">Weber</a></li>
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.haierappliances.com/find-a-haier-store/">Haier</a></li>
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.milwaukeetool.com/products/0970-20 ">Milwaukee Tools</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/docs">Long form Documentation</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/reference/square">Technical Reference Documentation</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/docs/devtools/api-logs">API Logs</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/explorer/square">API Explorer (In Browser Postman)</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/docs/devtools/sandbox/overview">Sandbox</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/docs/devtools/webhook-logs">Webhook Event Logs</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/docs/sdks">SDKs</a></li>
+                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/docs/sample-apps">Sample Apps</a></li>
+                <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://developer.squareup.com/docs/web-payments/quickstart">Quick Starts</a></li>
                 </ul>
               </li>
               <li>
                 <div>
-                  Example Links
+                  Technology
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3 inline-block ml-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                   </svg>
                   :
                 </div>
                 <ul className="list-disc list-inside">
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.goodnes.com/hot-pockets/products/ham-cheese-crispy-crust-frozen-sandwich-20-pk/">Nestle's Hot Pockets</a></li>
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.weber.com/US/en/storefinder/">Weber</a></li>
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.haierappliances.com/find-a-haier-store/">Haier</a></li>
-                  <li><a className="text-blue-600 dark:text-blue-500 hover:underline" target="_blank" href="https://www.milwaukeetool.com/products/0970-20 ">Milwaukee Tools</a></li>
+                  <li>Postman</li>
+                  <li>APIs</li>
+                  <li>JavaScript</li>
+                  <li>SDKs</li>
+                  <li>Webhooks</li>
+                  <li>OAuth</li>
+                  <li>Debugging with logs</li>
+                  <li>Chat GPT</li>
+                  <li>Saleforce</li>
                 </ul>
               </li>
             </ul>
