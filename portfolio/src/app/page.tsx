@@ -151,6 +151,7 @@ export default function Home() {
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JS</li>
+                  <li>Web Accessibility</li>
                 </ul>
               </li>
               <li>
