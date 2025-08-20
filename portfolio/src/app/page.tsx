@@ -5,7 +5,7 @@ import WPSDKPng from './assets/page/SquareWPSDKReference.png';
 
 export default function Home() {
   return (
-    <div className="grid sm:grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 sm:gap-16 sm:p-20 font-[family-name:var(--font-space-grotesk)]">
+    <div className="grid sm:grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 sm:gap-16 sm:p-20 font-[family-name:var(--font-roboto)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div className="
         bg-gradient-to-r from-midnightNebula to-midnightNebula-900
@@ -23,7 +23,7 @@ export default function Home() {
           {/* <!-- Name Section --> */}
           <h1 className="
             text-4xl sm:text-5xl md:text-6xl lg:text-7xl
-            font-extrabold
+            font-bold
             mb-4
             bg-clip-text text-transparent bg-gradient-to-r from-moonRock to-cosmicTitanium
             leading-tight
@@ -90,7 +90,7 @@ export default function Home() {
           {/* <!-- Name Section --> */}
           <h2 className="
             text-2xl sm:text-5xl md:text-6xl lg:text-7xl
-            font-extrabold
+            font-bold
             mb-4
             bg-clip-text text-transparent bg-gradient-to-r from-moonRock to-cosmicTitanium
             leading-tight
